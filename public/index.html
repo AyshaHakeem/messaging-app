@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Chat App</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+        <section id="userWrap">
+            <h1>User Registration</h1>
+            <div>
+                <p>Enter A 6 Digit User ID:</p><br>
+                <span>Your user ID serves as your identification in the chat app</span>
+            </div>
+            <form id="setID">
+                <input type="text" id="userID" class="field" placeholder="Enter User ID">
+                <input type="submit" class="submitBtn">
+            </form>
+            <p id="IDerror"></p>
+        </section>
+
+        <h1 class="chatHead">Chat Area</h1>
+        <div id="contentWrap">
+            <div class="users">
+                <h2>Active Users:</h2>
+                <ul id="userList">
+                    <li>User 1234</li>
+                    <li>User 1234</li>
+                    <li>User 1234</li>
+                </ul>
+            </div>
+            
+            <div id="chatWrap">
+                <section id="chat">
+                    <h2><b>Chat Area</b></h2>
+                </section>
+                <form id="send-message">
+                    <input type="text" id="message" class="field">
+                    <input type="submit" value="Send" class="submitBtn">  
+                </form>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+		<script src="js/main.js"></script>
+        <!-- <script src="/socket.io/socket.io.js"></script> -->
+
+	</body>
+</html>
