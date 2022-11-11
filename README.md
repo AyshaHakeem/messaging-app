@@ -10,7 +10,7 @@ Potential improvements for when I have a better understanding of backend technol
 - Private messaging
 - Integration with a database(eg: Mongodb) to retrieve old messages between users
 
-Download video of the app: [Chat App.zip](https://github.com/AyshaHakeem/messaging-app/files/9964087/Chat.App.zip)
+Link to video of the app: https://drive.google.com/file/d/1H0KaDmWXQOpTBhpERf3qCE77NoqkHkBp/view?usp=drivesdk
 
 // This is my first time working with the backend, feedbacks are welcome.
 
